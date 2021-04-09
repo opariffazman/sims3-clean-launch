@@ -18,7 +18,7 @@ A Sims3Launcher executable replacement with automated cleaning of game files on 
 
 # DESCRIPTION
 
-    Automatically remove these files:
+    Automatically remove these cached files on launch if exists:
 
     CasPartCache.package > CAS parts that appear in Create-A-Sim
     compositorCache.package > New objects that would appear in Buy/Build mode
@@ -26,13 +26,18 @@ A Sims3Launcher executable replacement with automated cleaning of game files on 
     simCompositorCache.package > New Sims, default skins
     socialCache.package > Simport-related (maybe?) and other social data, if you use the wall to integrate with your MyPage on thesims3.com site
 
-    AND, additionaly if they exist:
+    FeaturedItems > "thumb_*.png"
+    Thumbnails > "*.package"
+    DCBackup > "0*.package"
 
-    in DCCache: missingdeps.idx and dcc.ent
-    in Downloads: everything ending in ".bin"
-    in SIgsCache: everything ending in ".bin"
-    in SavedSims: Downloadedsims.index
-    in Thumbnails: everything ending in ".package" and every associated thumbnail (thumb_*.png)
+    Some sort of index or cache repository for the launcher, could be corrupted and stall launch or crash:
+
+    DCCache > missingdeps.idx and dcc.ent
+    Downloads > "*.bin"
+    SIgsCache > "*.bin"
+    SavedSims > "Downloadedsims.index"
+    IGACaches > everything
+    WorldCaches > "*.package"
 
     Converted to an executable and can be used as Sims3Launcher to replace original executable (back up original one first) to easily launch directly from Steam
     This effectively skips the default launcher and directly launch the game
