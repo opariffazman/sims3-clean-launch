@@ -1,16 +1,22 @@
 # sims3-clean-launch
 
-A Sims3Launcher executable replacement with automated cleaning of game files on starting up.
+A hassle free Sims3Launcher executable replacement with automated cleaning of game files on starting up.
 
 # USAGE
 
-  - Download the [Sims3Launcher.exe](https://github.com/opariffazman/sims3-clean-launch/releases/download/1.0/Sims3Launcher.exe)
+  - Download my custom [Sims3Launcher.exe](https://github.com/opariffazman/sims3-clean-launch/releases/download/1.0/Sims3Launcher.exe)
 
-  - Navigate to The Sims 3 Bin folder that contains TS3.exe, should be something like this (.\The Sims 3\Game\Bin\)
+  - Navigate to The Sims 3 Bin folder that contains **TS3.exe**, should be something like this (_.\The Sims 3\Game\Bin\_) _on steam you can just do the following to find it easier_
 
-  - Rename the original Sims3Launcher.exe inside this folder to something like Sims3Launcher.exe.bak or anything
+![steam-browse-local-files](https://steamuserimages-a.akamaihd.net/ugc/1807607607600193259/D853D4F136DD36EE233CB9B02753428243DF6C43/)
 
-  - Copy the previously downloaded Sims3Launcher3.exe to this folder and you'll be able to launch direclty from steam/origin.
+  - Rename the original **Sims3Launcher.exe** inside this folder to something like **Sims3Launcher.original.exe** or anything
+
+![rename-original-launcher](https://steamuserimages-a.akamaihd.net/ugc/1807607607600187069/E2B26CE6F9522B645630A250323EB60B4143FEE4/)
+
+  - Copy and paste the previously downloaded [Sims3Launcher.exe](https://github.com/opariffazman/sims3-clean-launch/releases/download/1.0/Sims3Launcher.exe) inside this folder and you'll be able to launch it directly from steam/origin.
+
+![copy-custom-launcher](https://steamuserimages-a.akamaihd.net/ugc/1807607607600225985/7733E167CB3A1F01097FE7E86DFA17C695EE336D/)
 
 # SYNOPSIS
 
@@ -50,9 +56,11 @@ A Sims3Launcher executable replacement with automated cleaning of game files on 
 
 # LINK
 
-  http://simswiki.info/wiki.php%3Ftitle%3DGame_Help:Sims_3_Delete_Cache_Files
+  http://simswiki.info/wiki.php%3Ftitle%3DGame_Help:Sims_3_Delete_Cache_Files (Reference for files deletion)
 
   https://github.com/MScholtes/Win-PS2EXE (Compiled to an easy to use Sims3Launcher.exe executable file)
+  
+  https://steamcommunity.com/id/opsedar/myworkshopfiles/?section=guides&appid=47890 (Guide on Steam)
 
 # INPUTS
 
