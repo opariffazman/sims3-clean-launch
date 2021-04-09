@@ -28,7 +28,7 @@
     http://simswiki.info/wiki.php%3Ftitle%3DGame_Help:Sims_3_Delete_Cache_Files
     https://github.com/MScholtes/Win-PS2EXE
 .INPUTS
-    Bin folder containing TS3.exe
+    None
 .OUTPUTS
     Minimal .log transcript file
 #>
